@@ -1,0 +1,107 @@
+*{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    background: #222;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.nav-logo{
+    float: left;
+    width: 20%;
+    display: inline;
+
+}
+
+.nav-logo a {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    color: black;
+    margin-left: 40px;
+}
+
+.nav-bar{
+    margin-left: 20%;
+    float: right;
+    margin-right: 5%;
+}
+
+.nav-bar a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.nav-bar a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.nav-bar a.active {
+    background-color: rgb(151, 151, 151);
+    color: #fff;
+}
+
+.main-content{
+    color: #ffffff;
+    font-size: 30px;
+    position: relative;
+    padding: 50px 10% 0 5%;
+}
+
+.main-content th{
+    list-style-type: none;
+    width: fit-content;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.main-content a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    font-family: "Lobster", serif;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+}
+
+.left-user-info{
+    float: left;
+    width: 20%;
+}
+
+.right-user-info{
+    margin-left: 30%;
+    /*margin-right: 10%;*/
+}
+
+.user-bio, address{
+    font-size: 25px;
+}
+
+.sound-info{
+    max-width: 1400px;
+    margin-right: 10%;
+}
+
+.download-sound{
+    float: right;
+    margin-right: 30%;
+}
+
+hr {
+    width: 150px;
+}
