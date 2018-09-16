@@ -17,7 +17,7 @@ body {
 
 .nav-logo{
     float: left;
-    width: 20%;
+    width: 18%;
     display: inline;
 
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .nav-bar{
-    margin-left: 20%;
+    margin-left: 18%;
     float: right;
     margin-right: 5%;
 }
@@ -57,7 +57,7 @@ body {
     color: #ffffff;
     font-size: 30px;
     position: relative;
-    padding: 50px 10% 0 5%;
+    padding: 50px 10% 0 10%;
 }
 
 .main-content th{
@@ -73,27 +73,27 @@ body {
 }
 
 .logo{
-    font-family: "Lobster", serif;
+    font-family: "Courier New", Courier, monospace;
     font-size: 120px;
     color: rgb(255, 255, 255);
 }
 
 .left-user-info{
     float: left;
-    width: 20%;
+    width: 18%;
 }
 
 .right-user-info{
-    margin-left: 30%;
+    margin-left: 28%;
     /*margin-right: 10%;*/
 }
 
 .user-bio, address{
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .sound-info{
-    max-width: 1400px;
+    max-width: 1300px;
     margin-right: 10%;
 }
 
